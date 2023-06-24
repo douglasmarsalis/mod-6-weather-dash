@@ -32,6 +32,7 @@ THEN I am again presented with current and future conditions for that city
 * Weather API - https://openweathermap.org/forecast5 
 * mdn web docs - https://developer.mozilla.org/en-US/docs/Web/API 
 * w3 schools - https://www.w3schools.com/
+* color pallete - https://abhijitrawool.com/restaurant-website-color-palettes/ 
 * Set-up ideas: jmrendon48 - https://github.com/jmrendon48/weather-dashboard-6/blob/main/index.html 
 * Special thanks to my tutor Ben.
 
