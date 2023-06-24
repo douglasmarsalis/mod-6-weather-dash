@@ -11,36 +11,78 @@
 </head>
 <body>
 <!--Header containing title-->    
-    <header>
+    <header id="header">
         <h1>Weather Dashboard</h1>
     </header>
 
     <main>
-        <aside>
-            <div>
-                <h3>Search for a City:</h3>
-            </div>
-            <div>
-                <input type="search" id="city-search" >
+<!--Column 0 - Far Left Search for City and City List-->        
+        <aside class="column-0">
+            <form>
+                <div>
+                    <label >Search for a City:</label>
+                </div>
+                <div>
+               
+                    <div>
+                        <input type="search" id="city-search" >
+<!--Font Awesome hour glass icon-->
+                        <button>
+                            <span style="font-size: 1em;"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </button>
+                    </div>
+                </form>
             </div>
         </aside>
 
+<!--5 Day Forecast Information - JavaScript will target this section-->        
         <section>
-
+            <h2 id="five-day-forecast-title" class="five-day-forecast-title"></h2>
+            <div id="five-day-forecast-cards-container" class="five-day-forecast-cards-container">
+                <div class="card-1">
+                    <p id="date-1" class="date"></p>
+                    <img id="icon-1" src="" alt="">
+                    <p id="temp-1" class="temp"></p>
+                    <p id="humidity-1" class="humidity"></p>
+                 </div>
+                <div class="card-2">
+                    <p id="date-2" class="date"></p>
+                    <img id="icon-2" src="" alt="">
+                    <p id="temp-2" class="temp"></p>
+                    <p id="humidity-2" class="humidity"></p>
+                </div>
+                <div class="card-3">
+                    <p id="date-3" class="date"></p>
+                    <img id="icon-3" src="" alt="">
+                    <p id="temp-3" class="temp"></p>
+                    <p id="humidity-3" class="humidity"></p>
+                </div>
+                <div class="card-4">
+                    <p id="date-4" class="date"></p>
+                    <img id="icon-4" src="" alt="">
+                    <p id="temp-4" class="temp"></p>
+                    <p id="humidity-4" class="humidity"></p>
+                </div>
+                <div class="card-5">
+                    <p id="date-5" class="date"></p>
+                    <img id="icon-5" src="" alt="">
+                    <p id="temp-5" class="temp"></p>
+                    <p id="humidity-5" class="humidity"></p>
+                </div>
+            </div>     
         </section>
     </main>
 
 <!--Footer containing contact information-->
     <footer class="contact" id="contact">
-        <h3><span>Phone: </span>337-366-8005</h3>
-        <h3>japanmarsalis@gmail.com</h3>
         <h3><a href="https://github.com/douglasmarsalis?tab=repositories">Github</a></h3>
         <h3><a href="https://www.linkedin.com/in/eric-marsalis-74161024b">LinkedIn</a></h3>
     </footer>
 
+<!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/a4db23dac5.js" crossorigin="anonymous"></script>
 <!--Link to JQuery-->    
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-
 <!--JavaScript file-->    
     <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>

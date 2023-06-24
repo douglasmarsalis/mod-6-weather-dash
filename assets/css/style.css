@@ -14,13 +14,24 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 10px;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 h1 {
+    display: flex;
+    justify-content: start;
     background-color: var(--headerColor);
     color: var(--titleColor);
     font-size: 48px;
+    padding: 20px;
+}
+
+footer {
+    display: block;
+    background-color: var(--headerColor);
+    color: var(--titleColor);
+    font-size: 24px;
+    margin-top: 200px;
     padding: 20px;
 }
