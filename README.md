@@ -46,7 +46,7 @@ THEN I am again presented with current and future conditions for that city
 * https://github.com/douglasmarsalis/mod-6-weather-dash.git 
 ## Screenshot
 
-! [alt text] (assets/images/Screenshot_TEST.png)
+! [alt text] (/Users/douglasmarsalis/projects/mod-6-weather-dash/assets/images/Screenshot_TEST.png)
 ## License
 
 MIT License
