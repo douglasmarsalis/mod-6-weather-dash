@@ -33,7 +33,8 @@ THEN I am again presented with current and future conditions for that city
 * mdn web docs - https://developer.mozilla.org/en-US/docs/Web/API 
 * w3 schools - https://www.w3schools.com/
 * css reset - https://cssdeck.com/blog/scripts/eric-meyer-reset-css/ 
-* color pallete - https://abhijitrawool.com/restaurant-website-color-palettes/ 
+* color pallete - https://abhijitrawool.com/restaurant-website-color-palettes/
+* font - https://fonts.google.com/specimen/Roboto  
 * Set-up ideas: jmrendon48 - https://github.com/jmrendon48/weather-dashboard-6/blob/main/index.html 
 * Special thanks to my tutor Ben.
 
@@ -45,7 +46,7 @@ THEN I am again presented with current and future conditions for that city
 * https://github.com/douglasmarsalis/mod-6-weather-dash.git 
 ## Screenshot
 
-
+! [alt text] (assets/images/Screenshot_TEST.png)
 ## License
 
 MIT License
