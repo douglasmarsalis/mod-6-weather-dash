@@ -18,23 +18,20 @@
     <main>
 <!--Column 0 - Far Left Search for City and City List-->        
         <aside id="search-container" class="search-container">
-            <form id="city-search">
+            <form id="search-form">
                 <div>
                     <label for="search-input">Search for a City:</label>
                 </div>
                 <div>
-                <div>
-                    <input type="search" id="city-search" >
-                </div>
+                    <input type="search" id="city-search">
 <!--Search Button with hour glass icon from Font Awesome site-->
                     <button>
                         <span style="font-size: 1em;"><i class="fa-solid fa-magnifying-glass"></i></span>
                     </button>
                 </div>
             </form>
-
-<!--Search History Container - Shows all cities tyoed into the search area, JS will target this section-->            
-            <section id="search-history"></section>
+<!--Search History Container - Shows all cities tyoed into the search area, JS will target this section--> 
+            <section id="search-history" class="search-history"></section>
         </aside>
 
 <!--Current-weather section, JS will target this section-->
@@ -43,11 +40,9 @@
                 <h2 id="current-city" class="current-city">Houston</h2>
                 <img id="current-weather-icon" class="current-weather-icon" src="" alt="">
             </div>
-            <p id="current-temp" class="current-temp">Hot</p>
-            <p id="current-humidity" class="current-humidity">Humid</p>
-            <p id="current-wind" class="current-wind">None</p>
-            <p id="current-uv-index" class="current-uv-index">Burning</p>
-            <p id="current-number" class="current-number">1000</p>
+            <p id="current-temp"></p>
+            <p id="current-humidity"></p>
+            <p id="current-wind"></p>
         </section>
 
 <!--5 Day Forecast Information - JavaScript will target this section-->        

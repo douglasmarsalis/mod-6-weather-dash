@@ -28,13 +28,30 @@ h1 {
 }
 
 label {
-    font-size: 24px;
+    font-size: 28px;
+}
+
+input {
+    margin-right: 0px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px var(--boxShadow);
+}
+
+button {
+    margin-left: 0px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px var(--boxShadow);
+    cursor: pointer;
 }
 
 #search-container {
     display: block;
+    position: fixed;
     float: left;
+    padding: 20px 40px 500px;
     border: solid 2px black;
+    background-color:aliceblue;
+    box-shadow: 10px 10px 5px var(--boxShadow);
 }
 
 #current-weather-container {
