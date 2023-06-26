@@ -17,26 +17,41 @@
 
     <main>
 <!--Column 0 - Far Left Search for City and City List-->        
-        <aside class="column-0">
-            <form>
+        <aside id="search-container" class="search-container">
+            <form id="city-search">
                 <div>
-                    <label >Search for a City:</label>
+                    <label for="search-input">Search for a City:</label>
                 </div>
                 <div>
-               
-                    <div>
-                        <input type="search" id="city-search" >
-<!--Font Awesome hour glass icon-->
-                        <button>
-                            <span style="font-size: 1em;"><i class="fa-solid fa-magnifying-glass"></i></span>
-                        </button>
-                    </div>
-                </form>
-            </div>
+                <div>
+                    <input type="search" id="city-search" >
+                </div>
+<!--Search Button with hour glass icon from Font Awesome site-->
+                    <button>
+                        <span style="font-size: 1em;"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </button>
+                </div>
+            </form>
+
+<!--Search History Container - Shows all cities tyoed into the search area, JS will target this section-->            
+            <section id="search-history"></section>
         </aside>
 
+<!--Current-weather section, JS will target this section-->
+        <section id="current-weather-container">
+            <div>
+                <h2 id="current-city" class="current-city">Houston</h2>
+                <img id="current-weather-icon" class="current-weather-icon" src="" alt="">
+            </div>
+            <p id="current-temp" class="current-temp">Hot</p>
+            <p id="current-humidity" class="current-humidity">Humid</p>
+            <p id="current-wind" class="current-wind">None</p>
+            <p id="current-uv-index" class="current-uv-index">Burning</p>
+            <p id="current-number" class="current-number">1000</p>
+        </section>
+
 <!--5 Day Forecast Information - JavaScript will target this section-->        
-        <section>
+        <section class="five-day-forecast-container">
             <h2 id="five-day-forecast-title" class="five-day-forecast-title"></h2>
             <div id="five-day-forecast-cards-container" class="five-day-forecast-cards-container">
                 <div class="card-1">
@@ -73,7 +88,7 @@
         </section>
     </main>
 
-<!--Footer containing contact information-->
+<!--Footer containing Github and Linkedin information-->
     <footer class="contact" id="contact">
         <h3><a href="https://github.com/douglasmarsalis?tab=repositories">Github</a></h3>
         <h3><a href="https://www.linkedin.com/in/eric-marsalis-74161024b">LinkedIn</a></h3>
