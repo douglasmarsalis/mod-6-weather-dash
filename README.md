@@ -35,7 +35,9 @@ THEN I am again presented with current and future conditions for that city
 * css reset - https://cssdeck.com/blog/scripts/eric-meyer-reset-css/ 
 * color pallete - https://abhijitrawool.com/restaurant-website-color-palettes/
 * font - https://fonts.google.com/specimen/Roboto  
-* Set-up ideas: jmrendon48 - https://github.com/jmrendon48/weather-dashboard-6/blob/main/index.html 
+* Set-up ideas: jmrendon48 - https://github.com/jmrendon48/weather-dashboard-6/blob/main/index.html
+* How to create a history list: https://www.youtube.com/watch?v=IrQss691cdE  
+* How to create local storage: https://blog.logrocket.com/localstorage-javascript-complete-guide/
 * Special thanks to my tutor Ben.
 
 ## Link to Deployed Site
