@@ -104,7 +104,7 @@ var fiveDayForecastSection = function (data) {
                         //Added date to 5 day forecast
                         var futureDate = $("#date-" + i);
                         //date = dayjs().format("M/D/YYYY");
-                        futureDate.text (thisDay.dt_txt);
+                        futureDate.text(thisDay.dt_txt);
 
                         //Added icon to 5 day forecast
                         var futureIcon = $("#icon-" + i);
@@ -118,7 +118,7 @@ var fiveDayForecastSection = function (data) {
 
                         //Added humidity to 5 day forecast
                         var futureHumidity = $("#humidity-" + i);
-                        futureHumidity.text("Humidity: " + thisDay.humidity + "%");
+                        futureHumidity.text("Humidity: " + thisDay.main.humidity + "%");
                     }
                 // })
 };

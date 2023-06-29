@@ -53,14 +53,14 @@ button {
     box-shadow: 10px 10px 5px var(--boxShadow);
 }
 
-#results-container {
-    float: right;
-}
-
 #search-history-title {
     text-align: center;
     padding: 10px;
     font-size: 1.5em;
+}
+
+#today {
+    font-size: 2em;
 }
 
 #history-line {
@@ -73,12 +73,51 @@ button {
     padding: 10px;
 }
 
+#results-container {
+    display: grid;
+    float: center;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 30px;
+    box-shadow: 10px 10px 5px var(--boxShadow);
+    border: solid 2px black;
+    padding: 20px;
+}
+
 #current-weather-container {
     display: block;
     float: right;
     padding-right: 200px;
+    background-color: aliceblue;
     border: solid 2px black;
 }
+
+#current-city {
+    font-size: 1.5em;
+}
+
+#five-day-forecast-title {
+    margin-top: 30px;
+    font-size: 1.75em;
+}
+
+#five-day-forecast-cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    max-width: auto;
+    max-height: auto;
+    border: solid 2px black;
+    background-color:aliceblue;
+    padding: 30px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 footer {
     position: fixed;
