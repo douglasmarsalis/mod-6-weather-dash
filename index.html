@@ -37,10 +37,12 @@
         </aside>
 
 <!--Current-weather section, JS will target this section-->
+    <div id="results-container">   
         <section id="current-weather-container">
+            <h2>Today's Weather:</h2>
             <div>
-                <h2 id="current-city" class="current-city">Houston</h2>
-                <img id="current-weather-icon" class="current-weather-icon" src="" alt="">
+                <h3 id="current-city" class="current-city"></h3>
+                <img id="current-weather-icon" id="current-weather-icon" src="" alt="">
             </div>
             <p id="current-temp"></p>
             <p id="current-humidity"></p>
@@ -49,14 +51,21 @@
 
 <!--5 Day Forecast Information - JavaScript will target this section-->        
         <section class="five-day-forecast-container">
-            <h2 id="five-day-forecast-title" class="five-day-forecast-title"></h2>
+            
+            <h3 id="five-day-forecast-title" class="five-day-forecast-title"></h3>
             <div id="five-day-forecast-cards-container" class="five-day-forecast-cards-container">
+                <div class="card-0">
+                    <p id="date-0" class="date"></p>
+                    <img id="icon-0" src="" alt="">
+                    <p id="temp-0" class="temp"></p>
+                    <p id="humidity-0" class="humidity"></p>
+                 </div>
                 <div class="card-1">
                     <p id="date-1" class="date"></p>
                     <img id="icon-1" src="" alt="">
                     <p id="temp-1" class="temp"></p>
                     <p id="humidity-1" class="humidity"></p>
-                 </div>
+                </div>
                 <div class="card-2">
                     <p id="date-2" class="date"></p>
                     <img id="icon-2" src="" alt="">
@@ -75,14 +84,10 @@
                     <p id="temp-4" class="temp"></p>
                     <p id="humidity-4" class="humidity"></p>
                 </div>
-                <div class="card-5">
-                    <p id="date-5" class="date"></p>
-                    <img id="icon-5" src="" alt="">
-                    <p id="temp-5" class="temp"></p>
-                    <p id="humidity-5" class="humidity"></p>
-                </div>
+               
             </div>     
         </section>
+    </div>
     </main>
 
 <!--Footer containing Github and Linkedin information-->
